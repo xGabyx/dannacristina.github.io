@@ -1,0 +1,96 @@
+<mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- CATEGORIA -->
+    <mxCell id="2" value="Categoria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+      <mxGeometry x="40" y="40" width="160" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="IdCategoria (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+      <mxGeometry y="26" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+      <mxGeometry y="52" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Descripcion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+      <mxGeometry y="78" width="160" height="22" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="&lt;div align=&quot;left&quot;&gt;Almacena como clasifica lo que vendes (Laptop, mouse, etc)&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+      <mxGeometry x="200" y="50" width="120" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- PROVEEDOR -->
+    <mxCell id="7" value="Proveedor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+      <mxGeometry x="40" y="180" width="160" height="140" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="Id_proveedor (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+      <mxGeometry y="26" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+      <mxGeometry y="52" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="Telefono" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+      <mxGeometry y="78" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" value="Correo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+      <mxGeometry y="104" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="Fecha_registro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7" vertex="1">
+      <mxGeometry y="130" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="13" value="&lt;div&gt;Almacena o quien te companys&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+      <mxGeometry x="200" y="190" width="140" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- PRODUCTOS -->
+    <mxCell id="14" value="Productos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+      <mxGeometry x="320" y="180" width="160" height="160" as="geometry"/>
+    </mxCell>
+    <mxCell id="15" value="Id_Producto (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+      <mxGeometry y="26" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="16" value="Id_proveedor (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+      <mxGeometry y="52" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="17" value="Nombre_product" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+      <mxGeometry y="78" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="18" value="Precio_unitario_ocio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+      <mxGeometry y="104" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="19" value="IdCategoria (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+      <mxGeometry y="130" width="160" height="26" as="geometry"/>
+    </mxCell>
+
+    <!-- INVENTARIO -->
+    <mxCell id="20" value="Inventario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+      <mxGeometry x="320" y="380" width="160" height="160" as="geometry"/>
+    </mxCell>
+    <mxCell id="21" value="Id Inventario (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+      <mxGeometry y="26" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="22" value="Id_product (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+      <mxGeometry y="52" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="23" value="Cantidad_disponible" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+      <mxGeometry y="78" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="24" value="Stock_minimo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+      <mxGeometry y="104" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="25" value="Ubicacion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="20" vertex="1">
+      <mxGeometry y="130" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="26" value="&lt;div align=&quot;left&quot;&gt;Depende de Producto&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Siempre y cuando solo tengan una ubicacion&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+      <mxGeometry x="490" y="400" width="110" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- ORDENES -->
+    <mxCell id="27" value="Ordenes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+      <mxGeometry x="40" y="380" width="160" height="140" as="geometry"/>
+    </mxCell>
+    <mxCell id="28" value="Id_Orden (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="27" vertex="1">
+      <mxGeometry y="26" width="160" height="26" as="geometry"/>
+    </mxCell>
+    <mxCell id="29" value="Id_proveedor (FK)" style="text;strokeColor=none
